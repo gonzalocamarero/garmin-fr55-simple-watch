@@ -1,0 +1,17 @@
+# Connect IQ compiled binaries and temporary build files
+bin/
+mir/
+gen/
+internal-mir/
+*.prg
+*.prg.debug.xml
+
+# Developer keys and secrets (NEVER commit private keys!)
+*.der
+*.pem
+*developer_key*
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.log
